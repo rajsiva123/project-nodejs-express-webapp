@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app",
     "build": "echo 'Building the application...'",
-    "test": "mocha"
+    "test": "npx mocha"
   },
   "description": "nodejs-webapp-express",
   "author": {
