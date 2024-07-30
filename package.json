@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node app",
-    "build": "echo 'Building the application...'", // This is a placeholder. Replace with your actual build command.
-    "test": "mocha" // Assumes you are using Mocha for testing.
+    "build": "echo 'Building the application...'",
+    "test": "mocha"
   },
   "description": "nodejs-webapp-express",
   "author": {
@@ -21,7 +21,7 @@
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
-    "mocha": "^8.0.0" // Add Mocha to your dev dependencies
+    "mocha": "^8.0.0"
   },
   "engines": {
     "node": "~6.10.x"
