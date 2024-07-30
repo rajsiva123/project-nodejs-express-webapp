@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app",
     "build": "echo 'Building the application...'",
-    "test": "npx mocha"
+    "test": "npx mocha 'test/**/*.js'"
   },
   "description": "nodejs-webapp-express",
   "author": {
@@ -21,7 +21,8 @@
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
-    "mocha": "^8.0.0"
+    "mocha": "^8.0.0",
+    "chai": "^4.3.4"
   },
   "engines": {
     "node": "~6.10.x"
