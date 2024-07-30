@@ -27,5 +27,4 @@
   "engines": {
     "node": "~6.10.x"
   }
-  "publishConfig":{"registry":"https://prudentialsiva.jfrog.io/artifactory/api/npm/prutest-npm/"}
 }
