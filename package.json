@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app",
-    "build": "echo 'Building the application...'",
+    "build": "webpack --mode production",
     "test": "npx mocha 'test/**/*.js'"
   },
   "description": "nodejs-webapp-express",
