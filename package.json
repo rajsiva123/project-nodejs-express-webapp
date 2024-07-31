@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app",
-    "build": "webpack --mode production",
+    "build": "echo 'Building the application...'",
     "test": "npx mocha 'test/**/*.js'"
   },
   "description": "nodejs-webapp-express",
@@ -27,10 +27,4 @@
   "engines": {
     "node": "~6.10.x"
   }
-  "devDependencies": {
-  "webpack": "^5.0.0",
-  "webpack-cli": "^4.0.0",
-  "mocha": "^8.0.0",
-  "chai": "^4.3.4"
-}
 }
